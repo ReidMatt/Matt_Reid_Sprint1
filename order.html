@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Order Online - Frankie's Fun Burgers</title>
+  <link rel="stylesheet" href="styles.css"
+</head>
+<body>
+
+  <!--Header section with order title-->
+  <header>
+    <h1>Order Online</h1>
+    <nav>
+      <ul>
+        <li><a href="index.html">Home</a></li>
+        <li><a href="menu.html">Menu</a></li>
+        <li><a href="order.html">Order Online</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <!--Order form section-->
+  <section id="order-form">
+    <form id="order-form">
+      <label for="name">Name:</label>
+      <input type="text" id="name" name="name" required>
+
+      <!--Input field for email-->
+      <label for="email">Email:</label>
+      <input type="email" id="email" name="email" required>
+
+      <!--Dropdown menu for selecting menu item-->
+      <label for="menuItem">Menu Item:</label>
+      <select id="menuItem" name="menuItem" required>
+        <option value="Barbecue Chicken">Big Chuck Chicken</option>
+        <option value="Classic Chicken">Classic Cheeseburger</option>
+        <option value="Chicken Club">Barbecue Chicken</option>
+        <option value="Classic beef">Chicken Caesar</option>
+
+      </select>
+
+      <!--Input field for quantity-->
+      <label for="quantity">Quantity:</label>
+      <input type="number" id="quantity" name="quantity" min="1" required>
+
+      <!--Input field for credit card number-->
+      <label for="Credit Card">Credit Card Number:</label>
+      <input type="text" id="Credit Card" name="Credit Card" required>
+
+      <!--Submit button-->
+      <button type="submit">Submit Order</button>
+      </form>
+
+      <!--Confirmation message cantainer-->
+      <div id="confirmationMessage"></div>
+  </section>
+
+  <!--Image section for ordering-->
+  <section id="order-image">
+    <img src="image/istockphoto-1332910466-1024x1024.jpg" alt="Order Food">
+  </section>
+
+  <!--Footer section-->
+  <footer>
+    <p>&copy; 2024 Frankie's Fun Burger</p>
+  </footer>
+
+  <!--Link to external JavaScript file-->
+  <script src="script.js"></script>
+  
+</body>
+</html>

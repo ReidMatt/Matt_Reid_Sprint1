@@ -1,0 +1,93 @@
+/* General styles for body */
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+  background-color: #f4f4f4;
+  color: #333;
+}
+
+/* Styles for header */
+header {
+  background-color: #ff6347;
+  color: white;
+  text-align: center;
+  padding: 1em 0;
+}
+
+/* Styles for navigation */
+nav ul{
+  list-style: none;
+  padding: 0;
+}
+
+nav ul li {
+  display: inline;
+  margin-right: 10px
+}
+
+nav ul li a {
+  color: white;
+  text-decoration: none
+}
+
+/* Styles for sections */
+section {
+  padding: 2em;
+  margin: 1em;
+  background-color: white;
+  border-radius: 8px;
+}
+
+/* Center aligned text for specific sections */
+#about-us, #menu, #order {
+  text-align: center
+}
+
+/* Styles for headings */
+h1, h2, h3 {
+  margin: 0.5em 0;
+}
+
+/* Styles for individual menu items */
+.menu-item {
+  border-bottom: 1px solid #ccc;
+  padding: 1em 0;
+}
+
+/* Styles for footer */
+footer {
+  background-color: #ff6347
+  color; white;
+  text-align: center;
+  padding: 1em 0;
+  position: fixed;
+  width: 100%;
+  bottom: 0;
+}
+
+/* Styles for form */
+form {
+  display: flex;
+  flex-direction: column;
+  gap: 1em;
+}
+
+/* Styles for form labels */
+label {
+  font-weight: bold;
+}
+
+/* Styles for form inputs, select and button */
+input, select, button {
+  padding: 0.5em;
+  font-size: 1em;
+}
+
+/* Styles for images */
+img {
+  max-width: 100%;
+  height: auto;
+  margin-top: 1em;
+  border-radius: 8px;
+}
